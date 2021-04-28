@@ -78,5 +78,11 @@ stani.onclick=function(){
 // resetiraj
 
 resetiraj.onclick=function(){
-  window.location.reload();
+ clearInterval(vrijeme);
+  milli=0;
+  sec=0;
+  min=0;
+  milliSeconds.innerHTML="0"+milli;
+  seconds.innerHTML="0"+sec;
+  minutes.innerHTML="0"+min;
 }
